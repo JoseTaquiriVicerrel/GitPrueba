@@ -37,22 +37,23 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(214, 159);
+            this.button1.Location = new System.Drawing.Point(136, 161);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(128, 29);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(109, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 1;
-            this.label3.Text = "label3";
+            this.label3.Text = "Usuario";
             // 
             // textBox3
             // 
@@ -71,17 +72,19 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(109, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(61, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.label4.Text = "Contraseña";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(373, 246);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ClientSize = new System.Drawing.Size(405, 278);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
@@ -89,6 +92,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
