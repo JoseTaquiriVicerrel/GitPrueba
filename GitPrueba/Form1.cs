@@ -49,6 +49,11 @@ namespace GitPrueba
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("contraseña incorrecta");
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
 
         }
     }
