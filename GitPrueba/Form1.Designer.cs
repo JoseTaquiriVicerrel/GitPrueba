@@ -77,7 +77,7 @@
             this.label4.Location = new System.Drawing.Point(109, 102);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
-            this.label4.TabIndex = 3;
+            //this.label4.TabIndex = 3;
             this.label4.Text = "Contraseña";
             // 
             // Form1
