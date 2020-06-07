@@ -37,35 +37,33 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(133, 157);
+            this.button1.Location = new System.Drawing.Point(147, 128);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "Aceptar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(109, 65);
+            this.label3.Location = new System.Drawing.Point(96, 42);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 1;
             this.label3.Text = "Usuario";
-            this.label3.Click += new System.EventHandler(this.Label3_Click);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(189, 65);
+            this.textBox3.Location = new System.Drawing.Point(176, 42);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(189, 102);
+            this.textBox4.Location = new System.Drawing.Point(176, 79);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 4;
@@ -73,27 +71,27 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(109, 102);
+            this.label4.Location = new System.Drawing.Point(96, 79);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(61, 13);
-            //this.label4.TabIndex = 3;
+            this.label4.TabIndex = 5;
             this.label4.Text = "Contraseña";
+            this.label4.Click += new System.EventHandler(this.Label4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(405, 278);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(400, 194);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
